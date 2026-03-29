@@ -14,9 +14,13 @@ V 1.0.1 - Config Update
 Dupe history
 New config menu:
 > Ignore ops
+
 > Ignore Creative
+
 > Exclude GUIs
+
 > History-wipe-hours
+
 > History Entries
 
 In-game Commands:
