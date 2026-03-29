@@ -21,8 +21,11 @@ New config menu:
 
 In-game Commands:
 > History
+
 > Clearhistory
+
 > Reload Config
+
 Look at new history command:
 <img width="611" height="121" alt="image" src="https://github.com/user-attachments/assets/24fdedae-445f-4b76-b9a0-595f1681e790" />
 
