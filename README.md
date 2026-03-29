@@ -18,6 +18,7 @@ New config menu:
 > Exclude GUIs
 > History-wipe-hours
 > History Entries
+
 In-game Commands:
 > History
 > Clearhistory
