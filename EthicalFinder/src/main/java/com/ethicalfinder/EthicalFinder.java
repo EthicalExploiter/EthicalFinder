@@ -27,6 +27,10 @@ public class EthicalFinder extends JavaPlugin {
         EFCommand cmd = new EFCommand(this);
         Objects.requireNonNull(getCommand("ef")).setExecutor(cmd);
         Objects.requireNonNull(getCommand("ef")).setTabCompleter(cmd);
+        Objects.requireNonNull(getCommand("antidupe")).setExecutor(cmd);
+        Objects.requireNonNull(getCommand("antidupe")).setTabCompleter(cmd);
+        Objects.requireNonNull(getCommand("ad")).setExecutor(cmd);
+        Objects.requireNonNull(getCommand("ad")).setTabCompleter(cmd);
         Objects.requireNonNull(getCommand("ethicalfinder")).setExecutor(cmd);
         Objects.requireNonNull(getCommand("ethicalfinder")).setTabCompleter(cmd);
 

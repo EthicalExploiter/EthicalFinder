@@ -1,10 +1,10 @@
 name: EthicalFinder
 version: '${version}'
 main: com.ethicalfinder.EthicalFinder
-api-version: '1.21'
+api-version: '1.21.x'
 description: Detects item duplication exploits in storage GUIs
 authors:
-  - You
+  - Shried, EthicalExploiter
 
 commands:
   ef:

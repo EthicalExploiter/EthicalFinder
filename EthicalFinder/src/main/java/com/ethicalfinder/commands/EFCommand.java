@@ -66,7 +66,6 @@ public class EFCommand implements CommandExecutor, TabCompleter {
         return true;
     }
 
-    // ── History pagination ────────────────────────────────────────────────────
 
     private void sendHistory(CommandSender sender, int page) {
         HistoryManager hm   = plugin.getHistoryManager();
@@ -123,7 +122,7 @@ public class EFCommand implements CommandExecutor, TabCompleter {
         sender.sendMessage(ChatColor.DARK_RED + "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
         sender.sendMessage(PREFIX + ChatColor.GOLD + "Commands");
         sender.sendMessage(ChatColor.DARK_RED + "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
-        cmd(sender, label, "history [page]",  "View dupe event history");
+        cmd(sender, label, "history [page]",  "View dupe history");
         cmd(sender, label, "clearhistory",    "Clear all history entries");
         cmd(sender, label, "reload",          "Reload the config");
         sender.sendMessage(ChatColor.DARK_RED + "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━");
