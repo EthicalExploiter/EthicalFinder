@@ -1,6 +1,6 @@
 EthicalFinder - Soon to be #1 Open-source anti dupe plugin.
 
-
+**I was going to release a V 1.0.2 today with some new settings, and minor additions, but I want to make some major revamps, esspically on how it detects a duped item. As right now, it just looks for duplicates in your inventory after acsessing a GUI, this is easily avoidable and can trigger false posites. I will be switching to a system that tags your items via meta and NBT data, and views for if a duplicate is apparent. I will also make it check not only your inventory for a duplicate, but all of your active gui. And i'll use my knowledge on duplicates to have it detect, when a player is being suspicous in there inventory, and making a seperate alert for it. All of this will be tweakable via config and majority will be tweakable via the settings.**
 Features:
 
 V. 1.0.0
