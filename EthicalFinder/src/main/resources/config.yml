@@ -1,0 +1,22 @@
+# ─────────────────────────────────────────────
+#           EthicalFinder Configuration
+# ─────────────────────────────────────────────
+
+# Ignore players who are OP
+ignore-ops: true
+
+# Ignore players currently in Creative mode
+ignore-creative: true
+
+# GUI titles to completely skip (case-insensitive, partial match supported)
+# Add any container/menu name you don't want monitored here.
+excluded-guis:
+  - "Enchanting Table"
+  - "Anvil"
+
+# How often (in hours) the dupe history is automatically wiped.
+# Set to 0 to disable auto-wipe.
+history-wipe-hours: 24
+
+# How many entries to show per page in /ef history
+history-page-size: 8

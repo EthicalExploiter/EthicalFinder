@@ -6,7 +6,28 @@ description: Detects item duplication exploits in storage GUIs
 authors:
   - You
 
+commands:
+  ef:
+    description: EthicalFinder command
+    usage: /ef <history|clearhistory|reload>
+    aliases: [ethicalfinder]
+  ethicalfinder:
+    description: EthicalFinder command (long alias)
+    usage: /ethicalfinder <history|clearhistory|reload>
+
 permissions:
   ethicalfinder.alerts:
-    description: Receive dupe alerts in chat
+    description: Receive live dupe alerts in chat
+    default: op
+
+  ethicalfinder.history:
+    description: View the dupe history via /ef history
+    default: op
+
+  ethicalfinder.clearhistory:
+    description: Clear the dupe history via /ef clearhistory
+    default: op
+
+  ethicalfinder.reload:
+    description: Reload the config via /ef reload
     default: op
