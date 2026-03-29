@@ -1,0 +1,33 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.ethicalfinder'
+version = '1.0.0'
+description = 'Detects item duplication exploits in storage GUIs'
+
+repositories {
+    mavenCentral()
+    maven { url = 'https://repo.papermc.io/repository/maven-public/' }
+}
+
+dependencies {
+    // Paper API - change version to match your server
+    compileOnly 'io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+processResources {
+    filesMatching('plugin.yml') {
+        expand(version: project.version)
+    }
+}
+
+jar {
+    archiveFileName = "EthicalFinder-${version}.jar"
+}

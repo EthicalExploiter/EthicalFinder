@@ -1,0 +1,12 @@
+name: EthicalFinder
+version: '1.0.0'
+main: com.ethicalfinder.EthicalFinder
+api-version: '1.21'
+description: Detects item duplication exploits in storage GUIs
+authors:
+  - You
+
+permissions:
+  ethicalfinder.alerts:
+    description: Receive dupe alerts in chat
+    default: op
